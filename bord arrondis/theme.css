@@ -1,0 +1,38 @@
+.border-1 {
+    border-radius: 1em;
+}
+.border-2 {
+    border-radius: 2em;
+}
+.border-3 {
+    border-top-left-radius: 2em;
+}
+.border-4 {
+    border-radius: 1em 2em 3em 4em;
+}
+
+
+.circle-1 {
+    padding: 0;
+    border-radius: 50%;
+    width: 20rem;
+    line-height: 19.8rem;
+    text-align: center;
+}
+.circle-2 {
+    width: 0;
+    border-radius: 50%;
+    border-top: 10rem solid #fbff00;
+    border-right: 10rem solid #095322;
+    border-bottom: 10rem solid rgb(128, 0, 0);
+    border-left: 10rem solid #4b2f05;
+}
+.circle-3 {
+    width: 200px;                /* Largeur du cercle */
+    height: 200px;               /* Hauteur du cercle */
+    border-radius: 50%;          /* Rend l'élément circulaire */
+    background: radial-gradient(
+    circle,
+    #860404,                   /* Couleur de départ */
+    #cfcc1f                    /* Couleur de fin */
+)}
