@@ -1,0 +1,80 @@
+/* *****************************************************************
+FORM
+***************************************************************** */
+.field {
+    display: flex;
+    padding: 1em 0;
+}
+
+.field label {
+    width: 30%;
+}
+
+.field input {
+    width: 70%;
+}
+
+.field + .field {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    margin: 2em 0;
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+}
+
+legend {
+    padding: 0 1em;
+    font-size: 1.8rem;
+}
+
+label {
+    padding: 0.5em;
+}
+
+.toolbar {
+    text-align: center;
+    margin: 2em 0;
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+}
+.bordure {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input,
+select,
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    background-color: #fff;
+    color: #000000;
+    padding: 0.5em 1em;
+}
+
+select,
+textarea {
+    width: 100%;
+}
+
+textarea {
+    display: block;
+    min-height: 10em;
+}
+.submit-button {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.6rem;
+    color: red;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.submit-button:hover {
+    color: black;
+    background-color: red;
+}
